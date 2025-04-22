@@ -1,0 +1,23 @@
+{
+    "name": "nuxt-shopify-template",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt dev",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate",
+        "typecheck": "nuxt typecheck",
+        "postinstall": "nuxt prepare",
+        "lint": "eslint ."
+    },
+    "dependencies": {
+        "@konkonam/nuxt-shopify": "latest",
+        "@nuxtjs/tailwindcss": "latest",
+        "nuxt": "latest"
+    },
+    "devDependencies": {
+        "@nuxt/eslint-config": "latest",
+        "eslint": "latest",
+        "vue-tsc": "latest"
+    }
+}
