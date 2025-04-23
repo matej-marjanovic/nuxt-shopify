@@ -7,7 +7,7 @@ const { t } = useI18n()
 <template>
     <header class="bg-black py-3 lg:py-4 mb-8">
         <div class="flex items-center justify-between px-4 lg:px-8">
-            <NuxtLink 
+            <NuxtLink
                 :to="localePath('/')"
                 class="flex items-center gap-4"
             >
@@ -18,7 +18,7 @@ const { t } = useI18n()
                     height="42"
                     width="96"
                 />
-    
+
                 <p class="text-white text-xl font-light">
                     {{ t('header.name') }}
                 </p>

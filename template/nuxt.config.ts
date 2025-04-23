@@ -12,12 +12,6 @@ export default defineNuxtConfig({
         '@nuxtjs/i18n',
     ],
 
-    future: {
-        compatibilityVersion: 4,
-    },
-
-    compatibilityDate: '2024-11-07',
-
     components: [
         {
             path: '~/components',
@@ -25,6 +19,18 @@ export default defineNuxtConfig({
             global: true,
         },
     ],
+
+    imports: {
+        dirs: [
+            '~/composables',
+        ],
+    },
+
+    future: {
+        compatibilityVersion: 4,
+    },
+
+    compatibilityDate: '2024-11-07',
 
     i18n: {
         defaultLocale: 'en',
@@ -40,14 +46,8 @@ export default defineNuxtConfig({
 
     icon: {
         serverBundle: {
-            collections: [ 'hugeicons' ],
+            collections: ['hugeicons'],
         },
-    },
-
-    imports: {
-        dirs: [
-            '~/composables',
-        ],
     },
 
     shopify: {

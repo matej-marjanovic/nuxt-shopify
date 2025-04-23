@@ -38,7 +38,7 @@
         "release": "pnpm publish --no-git-checks",
         "lint": "eslint .",
         "lint:template": "pnpm run --filter=nuxt-shopify-template lint",
-        "typecheck": "vue-tsc --noEmit",
+        "typecheck": "pnpm run --filter=* typecheck",
         "typecheck:template": "pnpm run --filter=nuxt-shopify-template typecheck",
         "analyze": "pnpm run --filter=./playgrounds/playground analyze",
         "prepare": "nuxt-module-build prepare",
