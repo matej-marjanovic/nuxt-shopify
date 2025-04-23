@@ -12,4 +12,8 @@ export default createConfigForNuxt({
             quotes: 'single',
         },
     },
+}).override({
+    rules: {
+        'vue/multi-word-component-names': 'off',
+    },
 })

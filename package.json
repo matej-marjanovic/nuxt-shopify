@@ -43,7 +43,7 @@
         "analyze": "pnpm run --filter=./playgrounds/playground analyze",
         "prepare": "nuxt-module-build prepare",
         "prepare:dev": "pnpm run --filter=./playgrounds/* prepare",
-        "cleanup": "pnpm run --filter=./playgrounds/playground cleanup && nuxi cleanup && rm -rf node_modules"
+        "cleanup": "pnpm run --filter=* cleanup"
     },
     "dependencies": {
         "@graphql-codegen/cli": "^5.0.5",

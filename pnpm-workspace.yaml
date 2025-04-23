@@ -1,4 +1,7 @@
 packages:
-  - '.'
-  - 'template'
-  - 'playgrounds/*'
+  - .
+  - template
+  - playgrounds/*
+
+onlyBuiltDependencies:
+  - sharp

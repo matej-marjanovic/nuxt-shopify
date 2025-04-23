@@ -6,16 +6,21 @@
         "build": "nuxt build",
         "postinstall": "nuxt prepare",
         "typecheck": "nuxt typecheck",
+        "cleanup": "nuxt cleanup",
         "lint": "eslint ."
     },
     "dependencies": {
+        "@iconify-json/hugeicons": "latest",
         "@konkonam/nuxt-shopify": "latest",
-        "@nuxtjs/tailwindcss": "latest",
+        "@nuxt/icon": "latest",
+        "@nuxt/image": "latest",
+        "@nuxtjs/i18n": "latest",
         "nuxt": "latest",
         "zod": "latest"
     },
     "devDependencies": {
         "@nuxt/eslint-config": "latest",
+        "dotenv": "latest",
         "eslint": "latest",
         "vue-tsc": "latest"
     }
